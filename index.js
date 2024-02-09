@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from "express";
 import { pokemonRouter } from "./routes/pokemon.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
